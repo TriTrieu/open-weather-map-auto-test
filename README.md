@@ -56,5 +56,5 @@ To execute these test case on IDE (Intellij), open the project in IDE
 
 ## Reporting - using Extent Report
 
-Extent Report (extent-report.html) are written into the `/extent-reports` directories after a successful run.
+Extent Report (`extent-report.html`) are written into the `/extent-reports` directories after a successful run.
 
