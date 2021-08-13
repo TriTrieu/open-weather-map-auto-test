@@ -32,9 +32,9 @@ This is a Automation TestNG Framework in Selenium. Using Java as main programmin
 
 In order to execute the test cases in this project you need to have the following installed locally:
 
-* Maven 3.8.1
-* Java 1.8
-* IDE: Intellij 
+* Maven 3.8.1 (https://mkyong.com/maven/how-to-install-maven-in-windows/)
+* Java 1.8 (https://mkyong.com/java/how-to-set-java_home-on-windows-10/)
+* IDE: Intellij (https://www.jetbrains.com/help/idea/installation-guide.html#silent)
 * Plugins for Intellij: Maven, TestNG if you want to execute the test case on IDE.
 
 ## Assumption
