@@ -75,8 +75,16 @@ public class JavaUtils {
         return dateFormat.format(date);
     }
 
+    public static String getOperatingSystem() {
+        String os = System.getProperty("os.name");
+        // System.out.println("Using System Property: " + os);
+        return os;
+    }
+
+
+
     public static void main(String[] args) {
 
-        System.out.println(getCurrentDate("MMM dd"));
+        System.out.println(getOperatingSystem());
     }
 }

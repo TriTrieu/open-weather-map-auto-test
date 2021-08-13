@@ -16,7 +16,7 @@
 
     <profiles>
         <profile>
-            <id>Base configuration</id>
+            <id>search-test</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>

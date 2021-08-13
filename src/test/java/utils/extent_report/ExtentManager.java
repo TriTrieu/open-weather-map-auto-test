@@ -3,8 +3,11 @@ package utils.extent_report;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
+import utils.JavaUtils;
+import utils.PropUtil;
 
 import java.io.File;
+import java.util.Locale;
 
 public class ExtentManager {
     private static ExtentReports extent;
@@ -35,8 +38,8 @@ public class ExtentManager {
         extent = new ExtentReports();
         extent.attachReporter(htmlReporter);
         //Set environment details
-        extent.setSystemInfo("OS", "Windows");
-        extent.setSystemInfo("SUT", "Production");
+        extent.setSystemInfo("OS", JavaUtils.getOperatingSystem());
+        extent.setSystemInfo("SUT", PropUtil.configProp.getProperty("sut").toUpperCase());
 
         return extent;
     }
