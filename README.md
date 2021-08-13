@@ -41,7 +41,8 @@ In order to execute the test cases in this project you need to have the followin
 
 ## Assumption
 
-Because of using WebDriver Manager for downloading Chromedriver.exe and geckodriver.exe so make sure the downloading is allowed by Company Networking (If have)
+* Because of using WebDriver Manager for downloading Chromedriver.exe and geckodriver.exe so make sure the downloading is allowed by Company Networking (If have)
+* All Test cases are working fine on Window 10. I have not checked with other operation system as Mac OS or Ubuntu
 
 ## Execution:
 
