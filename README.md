@@ -51,8 +51,8 @@ or
 
 To execute these test case on IDE (Intellij), open the project in IDE
 
-`right-click on testng.xml (under `open-weather-map-auto-test` directory) then click on Run option`
-or
+`right-click on testng.xml (under open-weather-map-auto-test directory) then click on Run option`
+
 
 ## Reporting - using Extent Report
 
