@@ -1,4 +1,4 @@
-# open-weather-map-auto-test
+## open-weather-map-auto-test
 This is a Automation TestNG Framework in Selenium. Using Java as main programming language
 
 
@@ -56,8 +56,10 @@ To execute these test case on IDE (Intellij), open the project in IDE
 
 `right-click on testng.xml (under open-weather-map-auto-test directory) then click on Run option`
 
-
 ## Reporting - using Extent Report
 
 Extent Report (`extent-report.html`) are written into the `/extent-reports` directories after a successful run.
+
+![image](https://user-images.githubusercontent.com/16249454/129309546-cab0c003-ce75-49f8-a547-3ca27ac54ffb.png)
+
 
