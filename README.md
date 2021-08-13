@@ -36,6 +36,8 @@ In order to execute the test cases in this project you need to have the followin
 * Java 1.8 (https://mkyong.com/java/how-to-set-java_home-on-windows-10/)
 * IDE: Intellij (https://www.jetbrains.com/help/idea/installation-guide.html#silent)
 * Plugins for Intellij: Maven, TestNG if you want to execute the test case on IDE.
+* Chrome browser
+* Firefox browser
 
 ## Assumption
 
