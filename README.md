@@ -63,6 +63,8 @@ Extent Report (`extent-report.html`) are written into the `/extent-reports` dire
 ![image](https://user-images.githubusercontent.com/16249454/129309546-cab0c003-ce75-49f8-a547-3ca27ac54ffb.png)
 
 ## Documents
+Below files is under project directory `open-weather-map-auto-test`:
+
 * TestCase.xlsx
 * Test Plan_OpenWeather_v1.0.docx
 * Defect.xlsx
