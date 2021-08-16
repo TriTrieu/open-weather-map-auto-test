@@ -12,6 +12,7 @@
             <class name="test_cases.search_weather.SearchWeatherTests" />
         </classes>
     </test>
+
     <test name="Chrome Testing">
         <parameter name="browser" value= "chrome" />
         <classes>

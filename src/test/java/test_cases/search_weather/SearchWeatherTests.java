@@ -40,6 +40,7 @@ public class SearchWeatherTests extends TestBase {
         detailWeatherInCityPage.verifyTemperature();
     }
 
+    //Test case failed to to prove that a screenshot will be attached into the extent report
     @Test(dataProvider= "SearchProvider")
     public void TC001_TestFailed(String keyword, String cityName_vi, String cityName_en){
         ExtentTestManager.getTest().info("Launch the browser " + browserType.toUpperCase());
